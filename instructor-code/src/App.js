@@ -7,11 +7,10 @@ class App extends Component {
     return (
       <div className="app">
         <nav>
-          <div className="brand small">HoodRat Fab</div>
+          <div className="brand small">My Stylish Site</div>
           <div className="menu small">Menu</div>
 
-
-          <div className="brand large">HoodRat Fab</div>
+          <div className="brand large">My Stylish Site</div>
           <div className="menu large">About Projects Contact</div>
         </nav>
       </div>

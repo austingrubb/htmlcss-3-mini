@@ -1,11 +1,11 @@
 .app {
-  background-image: url('https://blackrockdigital.github.io/startbootstrap-grayscale/img/bg-masthead.jpg');
+  background: url('https://blackrockdigital.github.io/startbootstrap-grayscale/img/bg-masthead.jpg');
   background-position: left;
   background-size: cover;
   min-height: 100vh;
 }
 
-nav{
+nav {
   background: white;
   height: 50px;
   display: flex;
@@ -14,30 +14,28 @@ nav{
   padding: 0 20px;
 }
 
-.brand{
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+.brand {
+  font-size: large;
   font-weight: bold;
-  font-size: 150%;
 }
 
-.large{
+.large {
   display: none;
 }
 
-@media(min-width: 650px){
-  .large{
+@media (min-width: 650px) {
+  .large {
     display: initial;
   }
 
-  .small{
+  .small {
     display: none;
   }
 
-  nav{
+  nav {
     background: transparent;
-    height: 70px;
+    height: 100px;
     color: white;
-    padding: 0 30px;
-    
+    padding: 0 50px;
   }
 }
